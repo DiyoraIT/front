@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+header {
+  background-color: #edf3f8;
+}
+body {
+  background-color: #edf3f8;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.nav-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+ul {
+  display: flex;
+  gap: 40px;
+}
+.burger_menu {
+  display: none;
+}
+.btn {
+  padding: 15px 25px;
+  border-radius: 24px;
+  background: #ba4270;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border: none;
+  color: white;
+}
+ul li a {
+  color: black;
+}
+
+.burger {
+  display: none;
+}
+
+.header-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-flex-left h1{
+  width: 546px;
+  font-size: 72px;
+  color: #36536B;
+  margin-bottom: 40px;
+}
+
+.header-flex-right img{
+width: 263px;
+margin-top: 58px;
+}
+
+.section{
+  background-color: #1B262F;
+}
+.basic-section{
+  color: white;
+}
+
+.section-left h1{
+  padding-top: 100px;
+  color: #FBFCFE;
+font-family: DM Serif Display;
+font-size: 48px;
+font-weight: 400;
+}
+.section-left p{
+  color: #FBFCFE;
+font-family: Public Sans;
+font-size: 15px;
+font-weight: 400;
+margin-top: 24px;
+width: 404px;
+}
+.first-section-btn{
+  background-color: transparent;
+  padding: 15px 32px;
+  margin-top: 32px;
+  border-radius: 24px;
+border: 1px solid #FBFCFE;
+color: white;
+}
+.basic-section{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  
+}
+.section-right{
+  padding-top: 139px;
+  display: flex;
+  gap: 60px;
+}
+.big-section-right{
+  display: block;
+}
+.second-section-right{
+  padding-top: 39px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+.main-section{
+  margin-top: 150px;
+ display: flex;
+
+}
+.right-section h2{
+ margin-top: 112px;
+ color: #36536B;
+font-family: "DM Serif Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 56px; /* 116.667% */
+letter-spacing: -0.369px;
+}
+.right-section p{
+  color: #6C8294;
+font-family: "Public Sans";
+font-size: 15px;
+font-weight: 400;
+margin-top: 24px;
+width: 387px;
+}
+/* .first{
+  color: #36536B;
+text-align: center;
+font-family: "Public Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 980px) and (min-width: 768px) {
+  .container {
+    padding: 0 12px;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .container {
+    padding: 0 12px;
+    position: relative;
+  }
+.header-flex{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+  .burger {
+    display: block;
+  }
+
+  .nav-header {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .burger_menu {
+    padding: 0 12px;
+    background-color: tomato;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 45%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .active {
+    display: flex;
+  }
+
+  .close {
+    display: none;
+  }
+  .btn {
+    margin-top: 12px;
+  }
+}
+
+/* @media (max-width: 767px) and (min-width: 320px){
+  .container{
+    
+  }
+} */
+
+@media (max-width: 980px) and (min-width: 540px){
+  .basic-section{
+    flex-direction: column-reverse;
+
+  }
+  .section-right{
+    justify-content: center;
+  }
+  .second-section-right{
+    justify-content: center;
+  }
+  .section-left{
+    text-align: center;
+  }
+  .textt{
+    margin: 0 auto;
+  }
+}
+
+
+@media (max-width: 980px) and (min-width: 540px){
+  .main-section{
+    display: flex;
+    flex-direction: column;
+  }
+  .left-section{
+    display: flex;
+    justify-content: center;
+  }
+  .right-section  {
+    transform: translate(200px, -100px);
+  }
+}
+
+
+
+
+
+
+ /* .container{
+  padding: 0 12px;
+    position: relative;
+}
+.basic-section{
+  display: block;
+}
+.section-left{
+text-align: center;
+} */
+
+
